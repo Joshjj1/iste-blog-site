@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color:paleturquoise;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 60px;
+    font-style: bold;
+    color: crimson;
+}
+h2,
+h3,h4,h5,h6{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-style: oblique;
+    color:indianred;
+}
+#mhead{
+    font-style: italic;
+}
+.tophead{
+    text-align: center;
+    background-color: rgb(60, 255, 0);
+    border: 5px solid red;
+    padding: 5%;
+    background-image: url("../iste\ summer\ school/back.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+a.hover{
+    color:purple;
+}
+.fnav{
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    padding: 0;
+    list-style: none;
+}
+.fnav li{
+    display: inline;
+    text-align: cente;
+}
+.fnav a{
+ text-decoration: none;
+ color:purple;
+ font-size: 20 px;
+ padding-right: 60px;
+
+}
+.articles{
+    /*background:greenyellow;*/
+    background: turquoise;
+    border: 5px ;
+    margin: 40px;
+    padding: 5%;
+}
+.foot
+{
+    background: gray; 
+    color: white;
+}
